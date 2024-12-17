@@ -158,24 +158,95 @@ img {
 
 /* For iPhone 6 specific */
 @media (max-width: 375px) {
-    .wrapper {
-        grid-template-columns: 1fr; /* Switch to 1 column for iPhone 6 */
+    body {
+        margin: 0;
+        padding: 0;
+        font-size: 0.9rem;
     }
 
-    .box {
-        padding: 0.85rem; /* Reduce padding for iPhone 6 to avoid overflow */
-    }
-
-    .navbar {
-        font-size: 0.9rem; /* Slightly smaller font for iPhone 6 */
+    nav {
+        flex-direction: column;
+        align-items: center;
+        padding: 0.5rem;
     }
 
     .logo img {
-        width: 40%; /* Logo size adjusted further */
+        width: 30%; /* Smaller width for the logo */
+        height: auto; /* Maintain aspect ratio */
+        max-height: 60px; /* Restrict the height */
+    }
+
+    .navbar {
+        gap: 0.5rem;
+    }
+
+    .navbar a {
+        padding: 5px;
+        font-size: 0.8rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+        text-align: center;
+        margin: 0.5rem 0;
+    }
+
+    #phone-link {
+        font-size: 0.9rem;
+        display: block;
+        text-align: center;
+    }
+
+    .wrapper {
+        margin: 0 auto;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+        padding: 0;
+    }
+
+    .box {
+        padding: 1rem;
+        font-size: 0.8rem;
+    }
+
+    .combo-photo {
+        max-width: 100%;
+        height: auto;
+        border-radius: 15px;
+    }
+
+    .menu-wrapper {
+        margin: 0 auto;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+        padding: 0;
     }
 
     .menu-note {
-        width: 80%; /* Adjust width for better fitting */
+        margin: 0;
+        padding: 0.5rem;
+        font-size: 0.8rem;
+        border: none;
+    }
+
+    .menu-note-txt {
+        padding: 0.25rem;
+    }
+
+    p {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        line-height: 1.4;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
     }
 }
 
