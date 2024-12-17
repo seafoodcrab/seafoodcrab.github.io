@@ -171,7 +171,7 @@ img {
 
     .logo img {
         max-width: 10 %;  /* Make the logo smaller for very small screens */
-        height: 35px;    
+        height: 55px;    
         display: block;
     }
 
@@ -186,6 +186,7 @@ img {
         width: 100%; /* Ensure full width */
         padding: 0; /* Remove padding */
         margin: 0; /* Remove margin */
+        margin-left: 1rem;
     }
 
     .box {
@@ -196,10 +197,10 @@ img {
     }
 
     .menu-note {
-        width: 70%; /* Ensure full-width for notes */
+        width: 85%; /* Ensure full-width for notes */
         padding: 5px;
         font-size: 0.9rem;
-        margin-left: 0;
+        margin-left: 1.2rem;
         margin-right: 0;
     }
 }
