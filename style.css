@@ -196,7 +196,7 @@ img {
     }
 
     .menu-note {
-        width: 100%; /* Ensure full-width for notes */
+        width: 85%; /* Ensure full-width for notes */
         padding: 5px;
         font-size: 0.9rem;
     }
