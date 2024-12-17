@@ -158,7 +158,7 @@ img {
         flex-direction: row; /* Ensure horizontal alignment */
         justify-content: space-between; /* Space items on the nav bar */
     }
-    
+
     body, html {
         margin: 0;
         padding: 0;
@@ -170,7 +170,7 @@ img {
     }
 
     .logo img {
-        max-width: 35 %;  /* Make the logo smaller for very small screens */
+        max-width: 20 %;  /* Make the logo smaller for very small screens */
         height: auto;    /* Maintain aspect ratio */
         display: block;
         margin: 0 auto;  /* Center the image */
@@ -183,18 +183,21 @@ img {
     }
 
     .wrapper {
-        padding: 0;
-
-        margin: 0;
+        display: block; /* Remove grid layout */
+        width: 100%; /* Ensure full width */
+        padding: 0; /* Remove padding */
+        margin: 0; /* Remove margin */
     }
 
     .box {
-        padding: 1rem; /* Adjust padding for small screens */
-        text-align: center;
+        width: 100%; /* Force box to fill the width */
+        padding: 1rem; /* Adjust padding for smaller screens */
+        margin: 0; /* Remove unwanted margins */
+        box-sizing: border-box; /* Include padding in width */
     }
 
     .menu-note {
-        width: 100%; /* Remove margins for small screens */
+        width: 100%; /* Ensure full-width for notes */
         padding: 5px;
         font-size: 0.9rem;
     }
