@@ -154,6 +154,11 @@ img {
 }
 
 @media (max-width: 375px) {
+    nav {
+        flex-direction: row; /* Ensure horizontal alignment */
+        justify-content: space-between; /* Space items on the nav bar */
+    }
+    
     body, html {
         margin: 0;
         padding: 0;
@@ -165,7 +170,7 @@ img {
     }
 
     .logo img {
-        max-width: 35%;  /* Make the logo smaller for very small screens */
+        max-width: 35 %;  /* Make the logo smaller for very small screens */
         height: auto;    /* Maintain aspect ratio */
         display: block;
         margin: 0 auto;  /* Center the image */
@@ -179,6 +184,7 @@ img {
 
     .wrapper {
         padding: 0;
+
         margin: 0;
     }
 
