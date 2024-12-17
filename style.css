@@ -171,7 +171,7 @@ img {
 
     .logo img {
         max-width: 10 %;  /* Make the logo smaller for very small screens */
-        height: 55px;    
+        height: 65px;    
         display: block;
     }
 
