@@ -199,6 +199,8 @@ img {
         width: 85%; /* Ensure full-width for notes */
         padding: 5px;
         font-size: 0.9rem;
+        margin-left: 0;
+        margin-right: 0;
     }
 }
 
