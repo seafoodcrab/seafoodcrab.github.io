@@ -140,7 +140,7 @@ img {
 /* For Mobile Screens */
 @media (max-width: 480px) {
     .logo a {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .navbar {
@@ -155,6 +155,30 @@ img {
         font-size: 0.9rem;
     }
 }
+
+/* For iPhone 6 specific */
+@media (max-width: 375px) {
+    .wrapper {
+        grid-template-columns: 1fr; /* Switch to 1 column for iPhone 6 */
+    }
+
+    .box {
+        padding: 0.85rem; /* Reduce padding for iPhone 6 to avoid overflow */
+    }
+
+    .navbar {
+        font-size: 0.9rem; /* Slightly smaller font for iPhone 6 */
+    }
+
+    .logo img {
+        width: 40%; /* Logo size adjusted further */
+    }
+
+    .menu-note {
+        width: 80%; /* Adjust width for better fitting */
+    }
+}
+
 
 @media (max-width: 1024px) {
     .wrapper {
