@@ -84,7 +84,7 @@ img {
     max-width: 100%;
     display: block;
     border-radius: 25px;
-}
+    }
 
 /* Wrapper for grid layout */
 .wrapper {
@@ -106,6 +106,7 @@ img {
     grid-template-rows: subgrid;
     grid-row: span 3;
 }
+
 
 /* Menu Wrapper */
 .menu-wrapper {
