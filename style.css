@@ -70,21 +70,23 @@ nav {
 img {
     max-width: 100%;
     display: block;
-    transition: transform 0.3s ease; /* Smooth zoom effect */
+    
 }
 
-@media (hover: hover) {
-    img:hover {
-        transform: scale(1.4); /* Zoom in by 40% */
-    }
-}
 
 
 .combo-photo {
     max-width: 100%;
     display: block;
     border-radius: 25px;
+    transition: transform 0.3s ease; /* Smooth zoom effect */
     }
+
+@media (hover: hover) {
+    .combo-photo:hover {
+        transform: scale(1.4); /* Zoom in by 40% */
+    }
+}
 
 /* Wrapper for grid layout */
 .wrapper {
