@@ -75,6 +75,21 @@ img {
 }
 
 
+.news {
+    text-align: center; /* center horizontally */
+    margin-bottom: 1rem; /* space between popup and menu images */
+}
+
+
+
+.news img {
+    display: block;        /* makes margin auto work */
+    margin: 1rem auto 1rem;   /* centers horizontally, adds bottom spacing */
+    max-width: 80%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
 
 .combo-photo {
     max-width: 100%;
@@ -109,6 +124,7 @@ img {
     grid-template-rows: subgrid;
     grid-row: span 3;
 }
+
 
 
 /* Menu Wrapper */
@@ -182,7 +198,7 @@ img {
     }
 
     .logo img {
-        max-width: 10 %;  /* Make the logo smaller for very small screens */
+        max-width: 10%;  /* Make the logo smaller for very small screens */
         height: 65px;    
         display: block;
     }
